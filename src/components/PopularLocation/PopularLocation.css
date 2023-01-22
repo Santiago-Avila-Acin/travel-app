@@ -1,0 +1,75 @@
+.popular__container .popular_location__header{
+    display: flex;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__container .popular_location__header h2{
+    font-size: var(--lg);
+}
+
+.popular__container .popular_location__header a{
+    font-size: var(--sm);
+    color: var(--primary_color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.popular__container .popular__main{
+    display: flex;
+}
+
+.popular__container .popular__main .popular__main__card{
+    display: grid;
+    grid-row: 1fr 1fr;
+    background-color: var(--white);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.popular__container .popular__main .popular__main__card .popular__main__card__image{
+    padding: 1.6rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2.8rem;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.popular__container .popular__main .popular__main__card .popular__main__card__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+
+.popular__container .popular__main .popular__main__card .popular__main__card__info p{
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.popular__container .popular__main .popular__main__card .popular__main__card__info img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.popular__container .popular__main .popular__main__card figure{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+
+.popular__container .popular__main .popular__main__card figure img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.4rem;
+}
+
+.popular__container .popular__main .popular__main__card figure p{
+    font-size: var(--sm);
+    color: var(--light_color);
+}

@@ -1,0 +1,51 @@
+.season__packs__container .season__packs__header{
+    display: flex;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.season__packs__container .season__packs__header h2{
+    font-size: var(--lg);
+}
+
+.season__packs__container .season__packs__header a{
+    font-size: var(--sm);
+    color: var(--primary_color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.season__packs__container .season__packs__main{
+    display: flex;
+}
+
+.season__packs__container .season__packs__main .season__packs__main__card{
+    position: relative;
+    background-color: var(--white);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.season__packs__container .season__packs__main .season__packs__main__card img{
+    padding: 1.6rem;
+    width: 24rem;
+    height: 20rem;
+    border-radius: 2.8rem;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.season__packs__container .season__packs__main .season__packs__main__card p{
+    position: absolute;
+    padding: 1.6rem;
+    margin-left: 1.4rem;
+    margin-right: 0.4rem;
+    font-size: var(--md);
+    font-weight: 400;
+    bottom: 3.2rem;
+    color: var(--white);
+}

@@ -1,0 +1,73 @@
+.offers__main__header{
+    display: flex;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers__container .offers__main__header h2 {
+    font-size: var(--lg);
+}
+
+.offers__container .offers__main__header a {
+    color: var(--primary_color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.offers__container .offers__main__header{
+    font-size: var(--sm);
+}
+
+.offers__container .offers__main{
+    display: flex;
+}
+
+.offers__container .offers__main .offers__main__card{
+    background-color: var(--white);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.offers__container .offers__main .offers__main__card img{
+    padding: 1.6rem;
+    width: 32rem;
+    height: 16rem;
+    border-radius: 2.8rem;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+
+.offers__container .offers__main .offers__main__card .detail__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.offers__container .offers__main .offers__main__card .detail__offers{
+    display: flex;
+    flex-direction: column;
+}
+
+.offers__container .offers__main .offers__main__card .detail__offers .offers__main__name__place{
+    font-size: var(--sm);
+    font-weight: 600;
+}
+
+.offers__container .offers__main .offers__main__card .detail__offers .offers__main__discount{
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.offers__container .offers__main .offers__main__card .view_more__button a {
+    font-size: var(--sm);
+    color: var(--primary_color);
+    font-weight: 700;
+}

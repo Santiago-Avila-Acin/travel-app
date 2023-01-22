@@ -1,0 +1,28 @@
+:root{
+  --primary_color: #674DEE;
+  --background_color: #F1EFEF;
+  --black: #000000;
+  --white: #ffffff;
+  --light_color: #848484;
+  --sm: 1.6rem;
+  --md: 2.2rem;
+  --lg: 2.6rem;
+  --title: 4.8rem;
+  }
+
+  *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+  html{
+  font-size: 62.5%;
+  }
+
+  body{
+      font-family: 'Inter', sans-serif;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background_color);
+  }
