@@ -1,0 +1,40 @@
+.offers__main__header{
+    display: flex;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers__container .offers__main__header h2 {
+    font-size: var(--lg);
+}
+
+.offers__container .offers__main__header a {
+    color: var(--primary_color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.offers__container .offers__main__header{
+    font-size: var(--sm);
+}
+
+.offers__container .offers__main{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    max-height: 30rem;
+    margin-left: 1.6rem;
+}
+
+
+.offers__container .offers__main::-webkit-scrollbar {
+    background-color: #F5F5F5;
+    width: 88%;
+}
+
+.offers__container .offers__main::-webkit-scrollbar-thumb {
+    background-color: var(--primary_color);
+    border-radius: 1rem;
+}

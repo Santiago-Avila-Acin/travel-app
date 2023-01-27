@@ -1,0 +1,42 @@
+
+.season__packs__main__card{
+    position: relative;
+    background-color: var(--white);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.season__packs__main__card img{
+    padding: 1.6rem;
+    width: 24rem;
+    height: 20rem;
+    border-radius: 2.8rem;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.season__pack__gradient{
+    position: absolute;
+    height: 18.4rem;
+    width: 20.84rem;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 7.08%, rgba(108, 25, 216, 0.35) 75.83%);
+    border-radius: 1.3rem;
+}
+
+.season__packs__main__card p{
+    position: absolute;
+    padding: 1.6rem;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--md);
+    font-weight: 400;
+    color: var(--white);
+    z-index: 2;
+    }

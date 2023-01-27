@@ -1,0 +1,37 @@
+.popular__container .popular_location__header{
+    display: flex;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__container .popular_location__header h2{
+    font-size: var(--lg);
+}
+
+.popular__container .popular_location__header a{
+    font-size: var(--sm);
+    color: var(--primary_color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.popular__container .popular__main{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    max-height: 40rem;
+    margin-left: 1.6rem;
+}
+
+
+.popular__container .popular__main::-webkit-scrollbar {
+    background-color: #F5F5F5;
+    width: 88%;
+}
+
+.popular__container .popular__main::-webkit-scrollbar-thumb {
+    background-color: var(--primary_color);
+    border-radius: 1rem;
+}

@@ -9,22 +9,22 @@ import carousel__photo from "../../assets/images/portada app viajes.jpg"
 const Navbar = () => {
     return (
         <>
-            <figure class="header__icons__container">
+            <figure className="header__icons__container">
                 <img src={Menu__icon} alt="menu__icon"/>
                 <img src={Profile__icon} alt="menu__profile_photo"/>
             </figure>
 
-            <nav class="header__navbar__container"> 
-                <div class="header__navbar__input">
-                    <span class="search__icon"></span>
+            <nav className="header__navbar__container"> 
+                <div className="header__navbar__input">
+                    <span className="search__icon"></span>
                     <input type="text" />
                 </div>
-                <button class="menu__settings">
+                <button className="menu__settings">
                     <img src={menu__settings} alt="menu__settings" />
                 </button>
             </nav>
 
-            <img src={carousel__photo} alt="photo" class="carousel__photo"></img>
+            <img src={carousel__photo} alt="photo" className="carousel__photo"></img>
         </>
     );
 }
