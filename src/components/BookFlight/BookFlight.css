@@ -1,0 +1,137 @@
+.single_place__book_flight__container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.single_place__book_flight__container form .single_place__book_flight__title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.single_place__book_flight__container form h1{
+    font-size: var(--lg);
+}
+
+.single_place__book_flight__container .single_place__place_to_fly{
+    border-bottom: 1px solid var(--light_color);
+    padding-bottom: 2rem;
+}
+
+.single_place__book_flight__container .single_place__place_to_fly p{
+    font-size: var(--sm);
+    margin-bottom: 0.8rem;
+}
+
+.single_place__book_flight__container .single_place__place_to_fly input{
+    width: 100%;
+    height: 4rem;
+    font-weight: 600;
+    background-color: var(--background_color);
+    border: 1px solid var(--light_color);
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container{
+    margin-top: 2rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container p{
+    font-size: var(--sm);
+    margin-bottom: 0.8rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container .single_place__date_to_fly{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid var(--light_color);
+    padding-bottom: 2rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container .single_place__date_to_fly input{
+    width: 100%;
+    height: 4rem;
+    font-weight: 600;
+    background-color: var(--background_color);
+    border: 1px solid var(--light_color);
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container .single_place__date_to_fly__icon{
+    display: flex;
+    justify-content:center;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--primary_color);
+    border-radius: 0.8rem;
+    margin-left: 1.2rem;
+}
+
+.single_place__book_flight__container .single_place__date_to_fly__container .single_place__date_to_fly__icon img{
+    width: 2.8rem;
+}
+
+.single_place__book_flight__container .single_place__peapol_fly {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.single_place__book_flight__container .single_place__peapol_fly p {
+    font-size: var(--sm);
+    margin-bottom: 0.8rem;
+}
+
+.single_place__book_flight__container .single_place__peapol_fly input {
+    height: 2.8rem;
+    width: 3.2rem;
+    font-weight: 600;
+    background-color: var(--background_color);
+    border: 1px solid var(--light_color);
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
+
+.single_place__book_flight__container .single_place__peapol_fly .button--decrease {
+    height: 2.8rem;
+    width: 3.2rem;
+    font-size: var(--sm);
+    font-weight: 600;
+    border: 1px solid var(--light_color);
+    border-radius: 0.6rem;
+}
+
+.single_place__book_flight__container .single_place__peapol_fly .button--increase{
+    height: 2.8rem;
+    width: 3.2rem;
+    font-size: var(--sm);
+    font-weight: 600;
+    border: 1px solid var(--light_color);
+    border-radius: 0.6rem;
+    color: var(--white);
+    background-color: var(--primary_color);
+}
+
+.single_place__book_flight__container form .button--confirm{
+    width: 100%;
+    height: 4rem;
+    color: var(--white);
+    font-size: var(--sm);
+    font-weight: 500;
+    background-color: var(--primary_color);
+    border: 1px solid var(--light_color);
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.single_place__book_flight__container .date__input::-webkit-calendar-picker-indicator {
+    display: none;
+    }

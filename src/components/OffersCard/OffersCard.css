@@ -30,6 +30,10 @@
     flex-direction: column;
 }
 
+.offers__main__card .detail__offers span{
+    color: var(--black);
+}
+
 .offers__main__card .detail__offers .offers__main__name__place{
     font-size: var(--sm);
     font-weight: 600;

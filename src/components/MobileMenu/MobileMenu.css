@@ -1,0 +1,14 @@
+.mobile__menu__container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    border-radius: 2rem;
+    position: absolute;
+    width: 50%;
+    top: 6.4rem;
+    left: 0px;
+    padding: 24px ;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}

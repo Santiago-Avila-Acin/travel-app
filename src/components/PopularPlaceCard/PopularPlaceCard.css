@@ -24,9 +24,14 @@
     margin-right: 1.6rem;
 }
 
+.popular__main__card .popular__main__card__info .nav__link__style{
+    text-decoration: none;
+}
+
 .popular__main__card .popular__main__card__info p{
     font-size: var(--md);
     font-weight: bold;
+    color:var(--black)
 }
 
 .popular__main__card .popular__main__card__info img{

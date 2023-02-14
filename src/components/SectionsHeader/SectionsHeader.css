@@ -1,0 +1,40 @@
+.section__header__container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.section__header__container figure{
+    position: relative;
+    margin-bottom: 3.2rem;
+}
+
+.section__header__container figure img{
+    width: 100vw;
+    height: 22rem;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+.section__header__container figure .section__header__info{
+    display: flex;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--white);
+    flex-direction: column;
+    width: 29rem;
+    height: 8rem;
+    box-shadow: 0px 0.4rem 0.4rem rgb(0 0 0 / 25%);
+    border-radius: 3.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__header__container figure .section__header__info__title h1{
+    font-size: var(--lg);
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

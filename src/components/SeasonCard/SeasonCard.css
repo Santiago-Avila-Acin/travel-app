@@ -37,6 +37,6 @@
     transform: translateX(-50%);
     font-size: var(--md);
     font-weight: 400;
-    color: var(--white);
+    color: white;
     z-index: 2;
     }

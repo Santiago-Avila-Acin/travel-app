@@ -7,6 +7,7 @@
 
 .offers__container .offers__main__header h2 {
     font-size: var(--lg);
+    color: var(--black);
 }
 
 .offers__container .offers__main__header a {
@@ -30,7 +31,7 @@
 
 
 .offers__container .offers__main::-webkit-scrollbar {
-    background-color: #F5F5F5;
+    background-color: var(--white);
     width: 88%;
 }
 

@@ -7,6 +7,7 @@
 
 .popular__container .popular_location__header h2{
     font-size: var(--lg);
+    color: var(--black);
 }
 
 .popular__container .popular_location__header a{
@@ -27,7 +28,7 @@
 
 
 .popular__container .popular__main::-webkit-scrollbar {
-    background-color: #F5F5F5;
+    background-color: var(--white);
     width: 88%;
 }
 

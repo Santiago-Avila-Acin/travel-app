@@ -1,12 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import "./OffersCard.css"
 
 const OffersCard = (props) => {
-    const { placeImage, placeName, offer, people } = props;
+    const { placeImage, placeName, offer, slug, people } = props;
 
     return (
         <div className="offers__main__card">
-            <img src={placeImage} alt={placeName} />
+            <NavLink to={`/place/${slug}`}> 
+                <img src={placeImage} alt={placeName} />
+            </NavLink>
             <div className="detail__container">
                 <div className="detail__offers">
                     <span className="offers__main__name__place">
@@ -17,7 +20,9 @@ const OffersCard = (props) => {
                     </span>
                 </div>
                 <div className="view_more__button">
-                    <a className="offers__main__details" href="">View Detail</a>
+                <NavLink className="offers__main__details" to={`/place/${slug}`}> 
+                    View Detail
+                </NavLink>
                 </div>
             </div>
         </div>

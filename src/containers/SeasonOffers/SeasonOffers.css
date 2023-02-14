@@ -1,5 +1,5 @@
 .season__packs__container{
-    margin-bottom: 1.6rem;
+    margin-bottom: 8.8rem;
 }
 
 .season__packs__container .season__packs__header{
@@ -11,6 +11,7 @@
 
 .season__packs__container .season__packs__header h2{
     font-size: var(--lg);
+    color: var(--black);
 }
 
 .season__packs__container .season__packs__header a{
@@ -31,7 +32,7 @@
 
 
 .season__packs__container .season__packs__main::-webkit-scrollbar {
-    background-color: #F5F5F5;
+    background-color: var(--white);
     width: 88%;
 }
 

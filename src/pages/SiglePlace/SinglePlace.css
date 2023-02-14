@@ -1,0 +1,14 @@
+.single_place__container .single_place__image{
+    width: 100vw;
+    height: 22rem;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+.single_place__container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}

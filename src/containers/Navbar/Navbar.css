@@ -1,3 +1,24 @@
+header .header__icons__container{
+    display: flex;
+    justify-content: space-between;
+    padding:1.6rem 1rem 1.6rem 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem;
+}
+
+.carousel__photo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    padding: 1.6rem;
+    width: 100%;
+    height: 26rem;
+    border-radius: 2.8rem;
+}
 
 .header__navbar__input.header__navbar__input {
     width: 84%;
@@ -24,22 +45,20 @@
     height: 4rem;
     border-style: none;
     border-radius: 1rem;
+    background-color: var(--white);
 }
 
 .menu__settings {
     width: 5rem;
     height: 5rem;
-}
-
-.menu__settings img{
-    width: 4rem;
-}
-
-.menu__settings{
     margin-left: 1.2rem;
     border-radius: 1rem;
     border: none;
     background-color: var(--primary_color);
+}
+
+.menu__settings img{
+    width: 4rem;
 }
 
 .carousel__photo{
