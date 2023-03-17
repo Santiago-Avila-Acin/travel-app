@@ -1,0 +1,6 @@
+.add__travels{
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

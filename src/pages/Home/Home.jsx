@@ -15,7 +15,7 @@ const Home = (props) => {
     // }
     
     
-    //MODO OSCURO (EN PROCESO)
+    // //MODO OSCURO (EN PROCESO)
 
         return (
         <React.Fragment>

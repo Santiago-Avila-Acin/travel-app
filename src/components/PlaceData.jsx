@@ -13,7 +13,8 @@ const PlaceData = () => {
             "favorite":true,
             "popularLocation":true,
             "slug":"eifiel-tower",
-            "price":370
+            "price":370,
+            "abbreviation":"FRA"
         },
     
         {
@@ -27,7 +28,8 @@ const PlaceData = () => {
             "favorite":true,
             "popularLocation":false,
             "slug":"venice",
-            "price":620
+            "price":620,
+            "abbreviation":"IT"
         },
     
         {
@@ -41,7 +43,8 @@ const PlaceData = () => {
             "favorite":false,
             "popularLocation":true,
             "slug":"maldives",
-            "price":430
+            "price":430,
+            "abbreviation":"MV"
         },
     ]
 }

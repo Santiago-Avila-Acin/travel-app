@@ -18,18 +18,20 @@ const Favorites = () => {
             />
             {placeInfo.map((place) => {
                 return (
-                    <ListCard
-                    key={place.id}
-                    slug={place.slug}
-                    placeImage={place.placeImage}
-                    placeName={place.placeName}
-                    placeLocation={place.placeLocation}
-                    favorite={place.favorite}
-                    handleFavorite={() => handleFavorite(place.id)}
-                    people={place.people}
-                    price={place.price}
-                    offer={place.offer}
-                    />
+                    <div className="list_card__container">
+                        <ListCard
+                        key={place.id}
+                        slug={place.slug}
+                        placeImage={place.placeImage}
+                        placeName={place.placeName}
+                        placeLocation={place.placeLocation}
+                        favorite={place.favorite}
+                        handleFavorite={() => handleFavorite(place.id)}
+                        people={place.people}
+                        price={place.price}
+                        offer={place.offer}
+                        />
+                    </div>
                 );})}
         </div>
     );

@@ -1,0 +1,26 @@
+.single_place__card__people_and_date__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+
+.single_place__card__people_and_date__container .single_place__card__date h3{
+    color: var(black);
+    font-size: var(--sm);
+}
+
+.single_place__card__people_and_date__container .single_place__card__date p{
+    color: var(--light_color);
+    font-size: var(--sm);
+}
+
+.single_place__card__people_and_date__container .single_place__card__people img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.single_place__card__people_and_date__container .single_place__card__people p{
+    color: var(--light_color);
+    font-weight: bold;
+}

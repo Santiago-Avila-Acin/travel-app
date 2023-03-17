@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./MobileMenu.css"
 
 const MobileMenu = () => {
@@ -9,27 +10,36 @@ const MobileMenu = () => {
     
                 <h1>MENU</h1>
     
-                <li>
-                    {/* <a href="/">All</a> */}
+                <li className='home'>
+                    <NavLink className="navlink" to="/">Home</NavLink>
                 </li>
 
                 <li>
-
+                    <NavLink className="navlink" to="/AllPlaces">Popular Locations</NavLink>
                 </li>
 
+                <li>
+                    <NavLink className="navlink" to="/AllPlaces">Best Offers</NavLink>
+                </li>
+
+                <li>
+                    <NavLink className="navlink" to="/AllPlaces">Season packs</NavLink>
+                </li>
+
+                <li>
+                    <NavLink className="navlink" to="/favorites">favorites</NavLink>
+                </li>
             </ul>
 
             <ul className="account">
                 
                 <li>
-                    <a href="/orders">My orders</a>
+                    <NavLink className="navlink" to="/Travels">My orders</NavLink>
                 </li>
-    
                 
                 <li>
-                    <a href="/account">My account</a>
+                    <NavLink className="navlink" to="/profile">My account</NavLink>
                 </li>
-    
             </ul>
                 
         </div>

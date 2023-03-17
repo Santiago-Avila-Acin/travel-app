@@ -25,4 +25,9 @@
     justify-content: center;
     align-items: center;
 }
-    /* background-color: var(--primary_color); */
+
+@media screen and (min-width: 650px){
+    .footer__container{
+        display: none;
+    }
+}

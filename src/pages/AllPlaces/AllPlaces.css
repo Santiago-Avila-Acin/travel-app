@@ -1,3 +1,9 @@
 .all_places__main{
     margin-bottom: 8.8rem;
 }
+
+.list_card__container {
+    display: flex;
+    justify-content: center;
+    
+}

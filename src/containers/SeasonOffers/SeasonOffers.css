@@ -40,3 +40,17 @@
     background-color: var(--primary_color);
     border-radius: 1rem;
 }
+
+@media screen and (min-width: 650px){
+    .season__packs__container{
+        margin-bottom: 1.2rem;
+    }
+
+    .season__packs__container .season__packs__header {
+        margin: 1.6rem 3.2rem 0rem 3.2rem;
+    }
+
+    .season__packs__container .season__packs__main {
+        margin-left: 3.2rem;
+    }
+}

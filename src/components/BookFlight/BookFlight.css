@@ -83,6 +83,18 @@
     margin-bottom: 4rem;
 }
 
+.single_place__book_flight__container .single_place__counter_button--childs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.2rem;
+}
+
+.single_place__book_flight__container .single_place__counter_button--adult {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.2rem;
+}
+
 .single_place__book_flight__container .single_place__peapol_fly p {
     font-size: var(--sm);
     margin-bottom: 0.8rem;
@@ -135,3 +147,22 @@
 .single_place__book_flight__container .date__input::-webkit-calendar-picker-indicator {
     display: none;
     }
+
+    .single_place__total_price__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+.single_place__total_price{
+    margin-bottom: 2rem;
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.single_place__discount{
+    margin-bottom: 2rem;
+    font-size: var(--sm);
+    font-weight: bold;
+    color: rgb(95, 199, 79);
+}

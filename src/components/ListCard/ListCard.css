@@ -3,6 +3,7 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     height: 16.8rem;
+    width: 88%;
     margin: 0rem 1.6rem 1.6rem 1.6rem;
     background-color: var(--white);
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
@@ -94,4 +95,34 @@
 
 .single_place__card__info--price img{
     width: 3rem;
+}
+
+@media screen and (min-width: 500px){
+    .single_place__card{
+        width: 72%;
+    }
+}
+
+@media screen and (min-width: 650px){
+    .single_place__card{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .single_place__card{
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .single_place__card{
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .single_place__card{
+        width: 34%;
+    }
 }

@@ -17,21 +17,27 @@ const Favorites = () => {
             section="Favorites"
 
             />
-            {favorites.map((place) => {
-                return (
-                    <ListCard
-                    key={place.id}
-                    slug={place.slug}
-                    placeImage={place.placeImage}
-                    placeName={place.placeName}
-                    placeLocation={place.placeLocation}
-                    favorite={place.favorite}
-                    handleFavorite={() => handleFavorite(place.id)}
-                    people={place.people}
-                    price={place.price}
-                    offer={place.offer}
-                    />
-                );})}
+
+            {favorites.length > 0 ?
+                favorites.map((place) => {
+                    return (
+                        <div className="list_card__container">
+                            <ListCard
+                            key={place.id}
+                            slug={place.slug}
+                            placeImage={place.placeImage}
+                            placeName={place.placeName}
+                            placeLocation={place.placeLocation}
+                            favorite={place.favorite}
+                            handleFavorite={() => handleFavorite(place.id)}
+                            people={place.people}
+                            price={place.price}
+                            offer={place.offer}
+                            />
+                        </div>
+                        );})
+                : <h2 className='add__travels'>Add new favorites to appear here!</h2>}
+                    
         </div>
     );
 }

@@ -70,3 +70,58 @@ header nav {
     height: 26rem;
     border-radius: 2.8rem;
 }
+
+@media screen and (min-width: 550px) {
+    .carousel__photo{
+        height: 33rem;
+    }
+
+}
+
+@media screen and (min-width: 650px){
+    .carousel__photo{
+        height: 42rem;
+    }
+
+    .header__navbar__input input{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .carousel__photo{
+        height: 50rem;
+        padding: 3.2rem;
+        border-radius: 5.8rem;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 850px){
+    .carousel__photo{
+        height: 46rem;
+        border-radius: 5.8rem;
+    }
+
+    .header__navbar__input input{
+        width: 92%;
+    }
+
+    @media screen and (min-width: 1000px){
+        .carousel__photo{
+            height: 50rem;
+            border-radius: 5.8rem;
+            margin-top: 0;
+        }
+
+        .header__navbar__input input{
+            width: 94%;
+        }
+
+        .header__navbar__input.header__navbar__input {
+            width: 90%;
+        }
+    }
+
+}

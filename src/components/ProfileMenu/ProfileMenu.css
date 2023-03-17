@@ -4,11 +4,63 @@
     grid-template-rows: auto auto 1fr;
     border-radius: 2rem;
     position: absolute;
-    width: 50%;
+    width: 44%;
     top: 6.4rem;
     right: 0px;
     padding: 24px ;
     background-color: var(--white);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease-in-out;
+}
+
+.profile__menu__container h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.profile__menu__container a{
+    color: var(--light_color);
+    font-size: var(--sm);
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.profile__menu__container .account {
+    margin-top: 2rem;
+}
+
+.profile__menu__container .account a{
+    color:  var(--primary_color);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 650px){
+    .profile__menu__container{
+        width: 32%;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .profile__menu__container{
+        width: 24%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .profile__menu__container{
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .profile__menu__container{
+        width: 24%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .profile__menu__container{
+        width: 18%;
+    }
 }

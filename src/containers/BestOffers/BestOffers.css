@@ -39,3 +39,13 @@
     background-color: var(--primary_color);
     border-radius: 1rem;
 }
+
+@media screen and (min-width: 650px){
+    .offers__main__header {
+        margin: 1.6rem 3.2rem 0rem 3.2rem;
+    }
+
+    .offers__container .offers__main {
+        margin-left: 3.2rem;
+    }
+}

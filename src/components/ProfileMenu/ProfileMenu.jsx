@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./ProfileMenu.css"
 
 const ProfileMenu = () => {
@@ -10,28 +11,21 @@ const ProfileMenu = () => {
                 <h1>PROFILE</h1>
     
                 <li>
-                    {/* <a href="/">All</a> */}
+                    <NavLink className="navlink" to="/Travels">My orders </NavLink>
                 </li>
-
                 <li>
-
+                    <NavLink className="navlink" to="/profile"> My account </NavLink>
                 </li>
-
             </ul>
 
             <ul className="account">
-                
                 <li>
-                    <a href="/orders">My orders</a>
+                    <NavLink className="navlink" to="/profile">Sing in</NavLink>
                 </li>
-    
-                
                 <li>
-                    <a href="/account">My account</a>
+                    <NavLink className="navlink" to="/profile">Sing out</NavLink>
                 </li>
-    
             </ul>
-                
         </div>
         );
     }
