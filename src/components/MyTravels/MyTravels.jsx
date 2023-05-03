@@ -7,7 +7,7 @@ const MyTravels = () => {
     const bookings = useSelector(state => state.bookingState);
 
     return (
-    <div>
+    <div className='single_place__card__container'>
         {bookings.length > 0 ? 
             bookings.map(booking => (
                 <MyTravelsCard

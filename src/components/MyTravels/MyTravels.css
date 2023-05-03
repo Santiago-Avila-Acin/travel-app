@@ -1,3 +1,8 @@
+.single_place__card__container{
+    display: flex;
+    justify-content: center;
+}
+
 .add__travels{
     color: var(--black);
     display: flex;
