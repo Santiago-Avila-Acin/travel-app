@@ -15,7 +15,7 @@ const Home = (props) => {
     // }
     
     
-    // //MODO OSCURO (EN PROCESO)
+    //MODO OSCURO (EN PROCESO)
 
         return (
         <React.Fragment>
@@ -34,6 +34,7 @@ const Home = (props) => {
         < BestOffers
         PlaceInfo={PlaceInfo}
         />
+        
         <SeasonOffers
         PlaceInfo={PlaceInfo}
         />

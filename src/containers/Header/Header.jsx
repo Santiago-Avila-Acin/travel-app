@@ -5,11 +5,11 @@ import ProfileMenu from "../../components/ProfileMenu/ProfileMenu";
 import Menu__icon from "../../assets/icons/Menu__icon.svg"
 import Profile__icon from "../../assets/icons/Profile__icon.svg"
 
-const Header = () => {
+const Header = () => { 
     const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
     const [toggleProfileMenu, setToggleProfileMenu] = useState(false);
 
-    const changeToggle = toggle => {
+    const changeToggle = (toggle) => {
 		if(toggle === "mobile-menu"){
 			setToggleMobileMenu(!toggleMobileMenu);
 			setToggleProfileMenu(false);

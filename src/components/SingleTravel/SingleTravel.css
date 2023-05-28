@@ -182,6 +182,7 @@
 
 .button__download{
     margin-top: 3.6rem;
+    margin-bottom: 8.8rem;
     display: flex;
     justify-content: center;
 }
@@ -202,6 +203,13 @@ button {
     .ticket_card__container{
         width: 72%;
     }
+    .button__download{
+        margin-bottom: 9.2rem;
+    }
+
+    button{
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 650px){
@@ -220,7 +228,7 @@ button {
     }
 
     .button__download{
-        margin-bottom: 1.4rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -228,12 +236,24 @@ button {
     .ticket_card__container {
         width: 44%;
     }
+
+    button{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 1000px){
     .ticket__image_of_place{
         height: 29.6rem;
         margin-bottom: 32rem;
+    }
+
+    .button__download{
+        margin-bottom: 2.4rem;
+    }
+
+    button{
+        width: 50%;
     }
 }
 
@@ -246,5 +266,9 @@ button {
 @media screen and (min-width: 1300px){
     .ticket_card__container {
         width: 30%;
+    }
+
+    button{
+        width: 40%;
     }
 }

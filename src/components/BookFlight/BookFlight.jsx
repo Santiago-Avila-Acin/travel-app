@@ -1,4 +1,4 @@
-import React, { useRef, useState, useContext, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { createBooking } from "../../Redux/states/BookingState";
@@ -24,6 +24,7 @@ const BookFlight = ({ peopleData, location, price, offer, slug, placeImage, plac
     };
     
     const [people, setPeople] = useState(peopleData);
+    
     const handleAddBooking = (e) => {
         e.preventDefault();
         const bookingData = {
@@ -55,7 +56,6 @@ const BookFlight = ({ peopleData, location, price, offer, slug, placeImage, plac
     const increasePeople = (e) => {
         setPeople(people + 1);
         e.preventDefault();
-    
     };
     
     const decreasePeople = (e) => {
